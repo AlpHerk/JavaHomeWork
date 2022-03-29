@@ -3,9 +3,8 @@ import java.util.Scanner;
 
 public class CalculateCircu {
     public static void main(String[] args) {
-
-        q3Circle();
-        q5Sphere();
+        q3Circle(); // 编程题-3
+        q5Sphere(); // 编程题-5
     }
     
     private static void q3Circle() {
