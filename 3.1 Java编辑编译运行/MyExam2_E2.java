@@ -19,7 +19,6 @@ public class MyExam2_E2 {
         return alpha;
     }
     public static String reverseStr(String str) {
-        // String str = Integer.toString(num);
         return new StringBuffer(str).reverse().toString();
     }
 }
