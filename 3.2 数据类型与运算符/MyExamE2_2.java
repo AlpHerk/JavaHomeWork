@@ -1,4 +1,4 @@
-public class MyExam2_E2 {
+public class MyExamE2_2 {
     public static void main(String[] args) {
         boolean leap;
         String original, reverse;

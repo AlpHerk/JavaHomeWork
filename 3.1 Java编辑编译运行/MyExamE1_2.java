@@ -6,7 +6,7 @@ class Calculator {
     }
 }
 
-public class MyExam1_E2 {
+public class MyExamE1_2 {
     public static void main(String[] args) {
         int a = 2, b = 3, c = 5;
         double ave = 0;

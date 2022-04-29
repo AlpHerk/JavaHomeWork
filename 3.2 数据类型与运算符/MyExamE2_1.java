@@ -1,4 +1,4 @@
-public class MyExam2_E1 {
+public class MyExamE2_1 {
     public static void main(String[] args) {
         int a = 4, b = 4, c = 8;
         if (isTriangle(a, b, c) == 0) {

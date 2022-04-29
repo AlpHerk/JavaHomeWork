@@ -1,4 +1,4 @@
-public class MyExam1_E1 {
+public class MyExamE1_1 {
     public static double getArea(double r) {
         final double PI = 3.14;
         return PI * r * r;
