@@ -5,8 +5,8 @@ public class MyExam4_4 {
         int player, computer;
         System.out.println("请输入一个数(0：石头 1：剪刀 2：布)");
         Scanner scanner = new Scanner(System.in);
-        scanner.close();
         player = scanner.nextInt();
+        scanner.close();
         computer = (int)(Math.random()*10 % 3);
         
         if (computer == 0) {
