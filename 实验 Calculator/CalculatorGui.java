@@ -1,5 +1,3 @@
-package Calculator;
-
 import javax.swing.*;
 import java.util.*;
 import java.awt.*;
@@ -157,8 +155,9 @@ class CalGUi {
 			btnMap.get(btnName[i]).setBackground(new Color(208, 229, 251));
 		}
 
-		label.setText(" 本程序逆波兰表达式 - @Herk");
+		label.setText("本程序采用逆波兰表达式计算 - @Herk  ");
 		label.setFont(new Font("", Font.PLAIN, 18));
+		label.setHorizontalAlignment(SwingConstants.RIGHT);
 
 		windo.add(display, BorderLayout.NORTH); // 将显示框添加到窗口北部
 		windo.add(panel); 						// 中间按钮组布局
