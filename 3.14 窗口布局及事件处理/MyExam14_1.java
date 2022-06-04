@@ -12,8 +12,8 @@ public class MyExam14_1 extends WindowAdapter{
         JFrame myframe =  new JFrame("MyExam14_1");
         JButton b1 = new JButton("确定");
         JButton b2 = new JButton("关闭");
-        myframe.getContentPane().add(b1);
-        myframe.getContentPane().add(b2);
+        myframe.getContentPane().add(b1, BorderLayout.CENTER);
+        myframe.getContentPane().add(b2, BorderLayout.SOUTH);
         myframe.addWindowListener(this);
         myframe.setSize(300, 200);
         myframe.setVisible(true);
